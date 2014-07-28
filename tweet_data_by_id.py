@@ -10,7 +10,7 @@ import yaml
 from time import sleep
 from twitter_authentication import *
 
-# read file name variables
+# read file name variables 
 with open('inputs.yml', 'r') as fn:
 	cnf = yaml.load(fn)
 tweet_id_file = cnf['tweet_id_file']
