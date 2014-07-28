@@ -1,5 +1,7 @@
-# hashtag and search window for topsy
+# hashtag or @user to search
 search: '#measagirl'
+
+# search window for topsy
 start_year: 2014
 start_month: 7
 start_day: 6
@@ -7,6 +9,6 @@ end_year: 2014
 end_month: 7
 end_day: 22
 
-# file names for saving ids and data
+# file names for outputting ids and data
 tweet_id_file: 'measagirl_ids'
 tweet_data_file: 'measagirl_data'
