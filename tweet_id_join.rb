@@ -3,7 +3,7 @@ require "yaml"
 
 start = Time.now
 
-# import search term
+# import search term 
 fn = File.dirname(File.expand_path(__FILE__)) + '/inputs.yml'
 cnf = YAML::load(File.open(fn))
 tweet_id_file = cnf['tweet_id_file']
