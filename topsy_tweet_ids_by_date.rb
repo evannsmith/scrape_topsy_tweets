@@ -6,7 +6,7 @@ require "csv"
 require "yaml"
 require "time"
 
-# Author: Evann Smith 
+# Author: Evann Smith
 # Version: 0.1
 
 start = Time.now
