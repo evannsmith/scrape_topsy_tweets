@@ -18,7 +18,7 @@ cnf = YAML::load(File.open(fn))
 search = cnf['search']
 # Replace # now, deal with other special characters later
 search_term = search.gsub("#", "%23").gsub("@", "%40").to_s
-file_name = search.split(" ").join("_").tr("#", "")
+file_name = search.split(" ").join("_").tr("#", "").tr("@", "")
 
 puts "Search term: #{search}"
 puts
