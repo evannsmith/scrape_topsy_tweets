@@ -23,7 +23,7 @@ end_month = cnf['end_month']
 end_day = cnf['end_day']
 # Replace # now, deal with other special characters later
 search_term = search.gsub("#", "%23").gsub("@", "%40").to_s
-file_name = search.split(" ").join("_").tr("#", "")
+file_name = search.split(" ").join("_").tr("#", "").tr("@", "")
 
 puts "Search term: #{search}"
 puts
